@@ -1,0 +1,383 @@
+/*CSS reset*/
+html{font-family:,sans-serif,Arial;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,input,button,textarea,p,th,td{padding:0;margin:0;font-family:Microsoft YaHei,sans-serif,Arial;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+a{text-decoration:none; color:black; outline:none;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+input,button,textarea,select,optgroup,option{font-family:inherit; font-size:inherit;font-style:inherit;font-weight:inherit;}
+input,button,textarea,select{*font-size:100%;}
+body,html{
+		margin:0;
+		padding:0;
+		height:100%;
+		-webkit-tap-highlight-color: rgba(255,0,0,0.5);
+	}
+	div{
+		margin:0;
+		padding:0;
+	}
+	a{
+		float:left;
+	}
+	.box{
+		width:320px;
+		height:100%;
+		min-height:400px;
+		max-height:600px;
+		position:relative;
+		overflow:hidden;
+	}
+	.show{
+		width:320px;
+		height:100%;
+		min-height:400px;
+		max-height:600px;
+	}
+	.pret,.diet,.slim,.tabu,.know{
+		width:320px;
+		height:100%;
+		min-height:400px;
+		max-height:600px;
+		position:relative;
+		position:absolute;
+		top:0;
+		left:320px;
+	}
+	.pret{
+		left:0;
+	}
+/*nav（导航）开始*/
+	.nav{
+		width:320px;
+		height:42px;
+		position:absolute;
+		bottom:2px;
+		background:#f9d1eb;
+	}
+	.nav span{
+		text-align:center;
+		font-size:20px;
+		line-height:2.5em;
+		color:#ff9f77;
+		float:left;
+		height:46px;
+		width:64px;
+		background:#f0c7f1;
+		-webkit-border-top-left-radius:18px;
+		-webkit-border-top-right-radius:18px;
+		-moz-border-radius-topleft:18px;
+		-moz-border-radius-topright:18px;
+		/*border-top-left-radius:30px;
+		border-top-right-radius:30px;*/
+		background-image: linear-gradient(bottom, rgb(243,209,242) 78%, rgb(231,163,231) 57%);
+		background-image: -o-linear-gradient(bottom, rgb(243,209,242) 78%, rgb(231,163,231) 57%);
+		background-image: -moz-linear-gradient(bottom, rgb(243,209,242) 78%, rgb(231,163,231) 57%);
+		background-image: -webkit-linear-gradient(bottom, rgb(243,209,242) 78%, rgb(231,163,231) 57%);
+		background-image: -ms-linear-gradient(bottom, rgb(243,209,242) 78%, rgb(231,163,231) 57%);
+
+		background-image: -webkit-gradient(
+			linear,
+			left bottom,
+			left top,
+			color-stop(0.78, rgb(243,209,242)),
+			color-stop(0.57, rgb(237,187,238)),
+			color-stop(-0.43, rgb(232,161,231))
+		);
+		-moz-box-shadow: -1px -5px 10px #e490dd;
+		-webkit-box-shadow: -1px -5px 10px #e490dd;
+		box-shadow: 0px -2px 9px #e490dd;
+	}
+/*nav（导航）结束*/
+
+/*设置波浪花纹开始*/
+	.centent-bg{
+		height:20px;
+		background:url(../images/top.png) 0 bottom no-repeat;
+	}
+/*设置波浪花纹结束*/
+
+/*（标题）开始*/
+		.top{
+			width:320px;
+			height:42px;
+			position:absolute;
+			top:0;
+			background:#f9d2f1;
+			text-align:center;
+			font-size:20px;
+			line-height:2em;
+		}
+		
+/*（标题）结束*/
+
+/*内容里面的样式开始*/
+		.center{
+			width:320px;
+			position:absolute;
+			top:42px;
+			bottom:42px;
+			background:url(../images/bac.jpg) 0 0 no-repeat;
+		}
+/*内容里面的样式结束*/
+
+/*水果美容开始*/
+	/*设置里面的内容开始*/
+		.pret .center ul{
+			height:100%;
+			overflow:hidden;
+			margin:20px 0 0 30px;
+		}
+		.pret .center ul li{
+			width:50%;
+			height:45%;
+			float:left;
+			text-align:center;
+		}
+		.pret .center ul li span{
+			float:left;
+			width:116px;
+			margin-top:5px;
+			font-size:15px;
+			color:#df37ae;
+		}
+		.pret .center ul li img{
+			float:left;
+			height:111px;
+			width:111px;
+			background:rgba(252,190,227,0.7);
+			-webkit-border-radius:110px;
+			background-image: linear-gradient(left , rgb(249,191,239) 24%, rgb(251,163,225) 63%, rgb(253,154,222) 82%);
+			background-image: -o-linear-gradient(left , rgb(249,191,239) 24%, rgb(251,163,225) 63%, rgb(253,154,222) 82%);
+			background-image: -moz-linear-gradient(left , rgb(249,191,239) 24%, rgb(251,163,225) 63%, rgb(253,154,222) 82%);
+			background-image: -webkit-linear-gradient(left , rgb(249,191,239) 24%, rgb(251,163,225) 63%, rgb(253,154,222) 82%);
+			background-image: -ms-linear-gradient(left , rgb(249,191,239) 24%, rgb(251,163,225) 63%, rgb(253,154,222) 82%);
+			background-image: -webkit-gradient(
+				linear,
+				left bottom,
+				right bottom,
+				color-stop(0.24, rgb(249,191,239)),
+				color-stop(0.63, rgb(251,163,225)),
+				color-stop(0.82, rgb(253,154,222))
+			);
+		}
+		
+		.pret-show{
+			padding-bottom:30px;
+		}
+		.pret-content{
+			height:100%;
+		}
+	/*设置里面的内容结束*/
+
+	/*content（内容）结束-*/
+/*水果美容结束*/
+
+/*食疗开始*/
+		.con{
+			width:320px;
+			height:42px;
+			margin:15px 18px;
+			position:relative;
+			cursor:pointer;
+		}
+		.left-border{
+			width:35px;
+			height:42px;
+			background:rgba(252,206,245,0.6);
+			/*border-radius:65% 0% 0% 65%/40% 0% 0% 40%;*/
+			-webkit-border-top-left-radius: 166px;
+			-webkit-border-bottom-left-radius: 166px;
+			-moz-border-radius-topleft: 166px;
+			-moz-border-radius-bottomleft: 166px;
+			border-top-left-radius: 166px;
+			border-bottom-left-radius: 166px;
+			/*box-shadow:-1px 4px 15px rgba(201,147,163,0.7);*/
+			-moz-box-shadow: 1px 5px 15px #c993a3;
+			-webkit-box-shadow: 1px 5px 15px #c993a3;
+			box-shadow: 1px 5px 15px #c993a3;
+			position:relative;
+			z-index:-1;
+		}
+		.center-show{
+			height:100%;
+			overflow:hidden;
+		}
+
+		.left-border{
+			color:#fff;
+			font-size:13px;
+			text-align:center;
+		}
+		.round{
+			width:22px;
+			height:22px;
+			background:rgba(247,131,254,0.8);
+			-webkit-border-radius:37.5px;
+			position:absolute;
+			left:8px;
+			top:9px;
+			text-align:center;
+		}
+		.right-border{
+			width:244px;
+			height:42px;
+			background:rgba(251,193,241,0.5);
+			-webkit-border-top-right-radius: 75px;
+			-webkit-border-bottom-right-radius: 75px;
+			-moz-border-radius-topright: 75px;
+			-moz-border-radius-bottomright: 75px;
+			border-top-right-radius: 75px;
+			border-bottom-right-radius: 75px;
+			-moz-box-shadow: 1px 5px 15px #c993a3;
+			-webkit-box-shadow: 1px 5px 15px #c993a3;
+			box-shadow: 1px 5px 15px #c993a3;
+			position:absolute;
+			left:35px;
+			top:0px;
+			z-index:-1;
+		}
+		.right-border span{
+			text-align:center;
+			line-height:44px;
+			margin-left:10px;
+			z-index:-1;
+		}
+		.center-beyond,.centerBeyond{
+			padding-bottom:40px;
+		}
+	/*设置内容里面的样式结束*/
+	/*content（内容）结束-*/
+/*食疗结束*/
+
+/*瘦身开始*/
+	/*设置里面的内容开始*/
+		.slim .center ul{
+			overflow:hidden;
+			height:100%;
+		}
+		.slim .center ul li{
+			width:320px;
+			height:25%;
+			background:#fcf;
+			opacity: 0.5;
+			margin-top:1px;
+			overflow:hidden;
+		}
+		.slim .center ul li span{
+			margin:-21px 0 0 38px;
+			float:left;
+			width:103px;
+			font-weight:bold;
+		}
+		.slim .center .font1{
+			background:#ff49c0;
+			color:#ff49c0;
+		}
+		.slim .center .font2{
+			background:#b2f653;
+			color:#b2f653;
+		}
+		.slim .center .font3{
+			background:#fc964e;
+			color:#fc964e;
+		}
+		.slim .center .font4{
+			background:#53a4fd;
+			color:#53a4fd;
+		}
+		.slim .center ul li img{
+			width:12px;
+			height:12px;
+			float:left;
+			margin:6px 0 0 6px;
+		}
+		.slim .center ul li div{
+			float:left;
+			height:24px;
+			width:24px;
+			-webkit-border-radius:55px;
+			margin:34px 0 0 16px;
+			font-size:22px;
+		}
+		.slim .center .simple,.slim .center .simple1,.slim .center .simple2,.slim .center .simple3{
+			width:147px;
+			height:100%;
+			-webkit-mask-image:-webkit-linear-gradient(right,rgba(255,0,0,1) 0%,rgba(255,0,0,1) 40%,rgba(255,0,0,0.1) 75%, rgba(255,0,0,0) 85%);
+			margin:0;
+			float:right;
+		}
+		
+		.slim .center .simple{
+			background:url('../images/spring.jpg') 0 0 no-repeat;
+			-webkit-background-size:cover;
+		}
+		.slim .center .simple1{
+			background:url('../images/summer.jpg') 0 0 no-repeat;
+			background-size:cover;
+		}
+		.slim .center .simple2{
+			background:url('../images/automn.jpg') 0 0 no-repeat;
+			background-size:cover;
+		}
+		.slim .center .simple3{
+			background:url('../images/winter.jpg') 0 0 no-repeat;
+			background-size:cover;
+		}
+	/*设置里面的内容结束*/
+
+	/*content（内容）结束-*/
+/*瘦身结束*/
+
+/*知识开始*/
+	/*设置里面的内容开始*/
+		.know .center ul{
+			overflow:hidden;
+			margin:20px 0 0 30px;
+		}
+		.know .center ul li{
+			width:96px;
+			height:120px;
+			float:left;
+			text-align:center;
+		}
+		.know .center ul li span{
+			float:left;
+			width:75px;
+			margin-top:5px;
+			font-size:15px;
+			color:#df37ae;
+		}
+		.know .center ul li img{
+			width:55px;
+			height:55px;
+			margin-top:10px;
+		}
+		.know .center ul li a{
+			float:left;
+			height:75px;
+			width:75px;
+			background:rgba(252,190,227,0.7);
+			-webkit-border-radius:110px;
+			background-image: linear-gradient(left , rgb(249,191,239) 24%, rgb(251,163,225) 63%, rgb(253,154,222) 82%);
+			background-image: -o-linear-gradient(left , rgb(249,191,239) 24%, rgb(251,163,225) 63%, rgb(253,154,222) 82%);
+			background-image: -moz-linear-gradient(left , rgb(249,191,239) 24%, rgb(251,163,225) 63%, rgb(253,154,222) 82%);
+			background-image: -webkit-linear-gradient(left , rgb(249,191,239) 24%, rgb(251,163,225) 63%, rgb(253,154,222) 82%);
+			background-image: -ms-linear-gradient(left , rgb(249,191,239) 24%, rgb(251,163,225) 63%, rgb(253,154,222) 82%);
+			background-image: -webkit-gradient(
+				linear,
+				left bottom,
+				right bottom,
+				color-stop(0.24, rgb(249,191,239)),
+				color-stop(0.63, rgb(251,163,225)),
+				color-stop(0.82, rgb(253,154,222))
+			);
+		}
+	/*设置里面的内容结束*/
+	/*content（内容）结束-*/
+/*知识结束*/
+
+
+
